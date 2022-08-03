@@ -1,2 +1,1 @@
-# argswap-WORM
-swap the first two arguments of a function
+[README](https://github.com/dmparrishphd/argswap-CORW#README)
