@@ -1,0 +1,64 @@
+DESCRIPTION-Section:
+                ------------------------------------------------
+                DESCRIPTION
+                ------------------------------------------------
+Package:
+                o3631414476617513505323074366713511503172001
+Type:
+                Package
+Title:
+                Argswap
+Version:
+                2022.08-03
+Date:
+                2020-08-03
+Author:
+                D. Michael Parrish
+Maintainer:
+                Neat O <neatoverse@yahoo.com>
+Description:
+                Argswap defines a function for creating a
+                modified copy of a function where the first two
+                arguments reversed.
+                    This file is
+                URN:UUID:f330c9f6-3e97-4569-8f1e-dcba4d0cf401#
+                DESCRIPTION
+License:
+                AGPL-3
+Encoding:
+                UTF-8
+INSTALL-Section:
+                ------------------------------------------------
+                INSTALL
+                ------------------------------------------------
+                To install this non-standard package, copy the
+                files, including the containing subdirectory, to
+                a known directory. The subdirectoy should be
+                named
+                o3631414476617513505323074366713511503172001
+                to be consistent with the package design.
+HELP-Section:
+                ------------------------------------------------
+                HELP
+                ------------------------------------------------
+Usage:
+                argswap.R <- paste0 (
+                    # insert path to directory
+                    "/o3631414476617513505323074366713511503172001" ,
+                    "/instantsToMoments.R" )
+                argswap <- source ( argswap.R ) [[ 1 ]]
+                argswap(FUN)
+Arguments:
+                FUN:    a function of at least two arguments.
+Value:
+                A function similar to FUN, except that the first
+                and second arguments have been swapped.
+Examples:
+                argswap.R <- paste0 (
+                    # insert path to directory
+                    "/o3631414476617513505323074366713511503172001" ,
+                    "/argswap.R" )
+                argswap <- source ( argswap.R ) [[ 1 ]]
+                negativedifference <- argswap(`-`)
+                negativedifference(1, 2)
+                `-`(1, 2)
